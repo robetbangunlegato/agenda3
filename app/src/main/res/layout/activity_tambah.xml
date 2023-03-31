@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context=".TambahActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Agenda"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal"
+        android:textSize="21sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_jam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jam"
+        android:textSize="21sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/et_kegiatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kegiatan"
+        android:textSize="21sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="Tambah"
+        android:textSize="21sp"/>
+
+</LinearLayout>
